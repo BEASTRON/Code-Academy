@@ -41,9 +41,9 @@ console.log(365 % 27)
 
 //Functions
 
-console.log(Math.random() * 50);
+console.log(Math.random() * 50);  // prints #'s btwn 0 - 50
 
-
+console.log(Math.random() * 100);  //prints #'s btwn 0 - 100
 
 
 
