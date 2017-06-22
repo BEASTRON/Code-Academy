@@ -12,6 +12,8 @@ console.log("Name: " + myString);
 console.log("Lucky Number: " + myNumber);
 console.log("Good joke? " + myBoolean);
 
-//another example
+//other examples
 
 console.log('Have 2 learn and get certifications in ES6, PowerShell, and Python or I will starve 2 death!! ')
+
+console.log('favorite pizza toppings: mushrooms, green peppers, sausage, onions, pepperoni, and extra cheese. ')
