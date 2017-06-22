@@ -35,5 +35,7 @@ console.log(9*9*9*9) // 6561, However, this does !!
 
 // Using 1 set of () for each set of operations in the case of multiple operations allows the results to be printed, otherwise the correct results will not be printed. if there is an odd number of (), an error results.
 
+//Modulus example
 
+console.log(365 % 27)
 
