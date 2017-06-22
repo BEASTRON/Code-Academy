@@ -1,4 +1,4 @@
-#Notes & Code
+// Code
 
 //from https://www.codecademy.com/courses/learn-javascript/lessons/introduction-to-javascript/exercises/types?action=lesson_resume
 
