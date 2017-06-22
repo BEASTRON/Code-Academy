@@ -1,2 +1,13 @@
 #Notes & Code
 
+//from https://www.codecademy.com/courses/learn-javascript/lessons/introduction-to-javascript/exercises/types?action=lesson_resume
+
+var myString = "Carpio";
+var myNumber = 46;
+var myBoolean = true;
+
+
+// Do not edit the code under this line
+console.log("Name: " + myString);
+console.log("Lucky Number: " + myNumber);
+console.log("Good joke? " + myBoolean);
