@@ -32,3 +32,8 @@ console.log(9^4) // 11, this doesn't print the correct answer.
 console.log(9*9*9*9) // 6561, However, this does !!
 
 //notice no single or double quotes were used, otherwise the numbers used in the operations become strings.
+
+// Using 1 set of () for each set of operations in the case of multiple operations allows the results to be printed, otherwise the correct results will not be printed. if there is an odd number of (), an error results.
+
+
+
