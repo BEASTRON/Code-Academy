@@ -17,3 +17,15 @@ console.log("Good joke? " + myBoolean);
 console.log('Have 2 learn and get certifications in ES6, PowerShell, and Python or I will starve 2 death!! ')
 
 console.log('favorite pizza toppings: mushrooms, green peppers, sausage, onions, pepperoni, and extra cheese. ')
+
+//Math Operators
+
+console.log(46 + 3.5)
+
+console.log(2017 - 1990)
+
+console.log(22 * 8)
+
+console.log(10000 / 100)
+
+//notice no single or double quotes were used, otherwise the numbers used in the operations become strings.
