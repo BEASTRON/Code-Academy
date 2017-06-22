@@ -39,3 +39,11 @@ console.log(9*9*9*9) // 6561, However, this does !!
 
 console.log(365 % 27)
 
+//Functions
+
+console.log(Math.random() * 50);
+
+
+
+
+
