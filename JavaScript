@@ -11,3 +11,7 @@ var myBoolean = true;
 console.log("Name: " + myString);
 console.log("Lucky Number: " + myNumber);
 console.log("Good joke? " + myBoolean);
+
+//another example
+
+console.log('Have 2 learn and get certifications in ES6, PowerShell, and Python or I will starve 2 death!! ')
