@@ -54,6 +54,16 @@ console.log(Math.floor(Math.random() * 100));  //Math.floor rounds the random # 
 /*..........*/ //denotes multi-line comments.  
 
 
+// createVariable.js
+
+var strength = '50,000 pounds'; 
+console.log(strength);  // prints 50,000 pounds
+
+var strength = '50,000 pounds'; 
+console.log('How much stuff can a variable hold?', strength);  // prints How much stuff can a variable hold? 50,000 pounds
+
+
+
 
 //stopped @ 2/6 createVariable.js
 
