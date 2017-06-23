@@ -47,6 +47,14 @@ console.log(Math.random() * 100);  //prints #'s btwn 0 - 100
 
 console.log(Math.floor(Math.random() * 100));  //Math.floor rounds the random # to the nearest whole #
 
+//Comments
+
+// single line comments.
+
+/*..........*/ //denotes multi-line comments.  
+
+
+
 //stopped @ 7/8 comments.js
 
 
