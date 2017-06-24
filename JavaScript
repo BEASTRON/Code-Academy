@@ -65,7 +65,7 @@ console.log('How much stuff can a variable hold?', strength);  // prints How muc
 
 
 
-//stopped @ 2/6 createVariable.js
+//stopped @ 3/6 createVariable.js
 
 
 
