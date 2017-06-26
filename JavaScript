@@ -63,9 +63,15 @@ var strength = '50,000 pounds';
 console.log('How much stuff can a variable hold?', strength);  // prints How much stuff can a variable hold? 50,000 pounds
 
 
+//changeVariable.js
+
+var morningAlarm = '6:30AM';
+morningAlarm = '9:00AM'; // commenting out this variable will print the 1st variable & vice versa
+console.log('Morning alarm is set to: ', morningAlarm)
+// **commenting out both variable causes a reference error because the variable is not defined. 
 
 
-//stopped @ 4/6 changeVariable.js
+//stopped @ 5/6 stringInterpolation.js
 
 
 
