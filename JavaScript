@@ -81,6 +81,25 @@ var favoriteAnimal = ''; // sets variable
 console.log(' ' +  + '') // prints string with the variable between the operators
 
 
+// ifElse.js
+
+var harryPotterFan = false; // **Boolean determines which code block will run
+if(harryPotterFan){
+   console.log('Mischief managed.');
+}else{
+  console.log('I lead a muggles\'s life.'); // Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.
+}
+
+
+var starTrekFanBoy = true; // **
+if(starTrekFanBoy){
+   console.log('I\'m awesome, deal with it!!'); // Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.
+}else{
+  console.log('I suck at life.');
+}
+
+
+
 
 
 
