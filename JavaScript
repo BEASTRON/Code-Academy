@@ -83,7 +83,6 @@ console.log(' ' +  + '') // prints string with the variable between the operator
 
 
 
-//stopped @ 5/6 stringInterpolation.js
 
 
 
