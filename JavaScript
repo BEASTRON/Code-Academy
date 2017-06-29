@@ -98,7 +98,16 @@ if(trekkieFanBoy){
   console.log('I suck at life.');
 }
 
+
 // comparison.js 
+
+var hungerLevel = 12; // var once again dictates which block will execute or run. 
+	if(hungerLevel >= 7){
+    console.log('Time to eat.');
+  }else{
+   	console.log('Let\'s eat later');
+  }
+
 
 
 
