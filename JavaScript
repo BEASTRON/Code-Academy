@@ -119,7 +119,12 @@ var moonPhase = 'full';
   }
 
 
-
+var moonPhase = 'half';
+	if(moonPhase === 'full'){
+    console.log('Howwwwlll!!');
+  }else{
+    console.log('I swear I am not a werewolf...'); // this is true for me !! :p :p 
+  }
 
 
 
