@@ -91,14 +91,17 @@ if(harryPotterFan){
 }
 
 
-var starTrekFanBoy = true; // **
-if(starTrekFanBoy){
+var trekkieFanBoy = true; // **
+if(trekkieFanBoy){
    console.log('I\'m awesome, deal with it!!'); // Since the string is surrounded by single quotes, we can use a back slash to add a single quote within the string. This is called escaping a character.
 }else{
   console.log('I suck at life.');
 }
 
 // comparison.js 
+
+
+
 
 
 
