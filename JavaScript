@@ -181,6 +181,26 @@ if (moonPhase === 'full' || foggyNight) {
 }
 
 
+// **If we want to write a program with 25 different conditions, we can turn to a switch statement to write more concise and readable code. To a computer, a switch statement and an if/else statement are the same, but a switch statement can be easier for other humans to read. Part of being a good developer is writing code that both computers and other humans can read.
+
+var moonPhase = 'mostly new';
+switch(moonPhase){
+case 'full': 
+    console.log('Howwwwlll!!');
+    break;
+case 'mostly full':
+    console.log('Arms and legs are getting hairier');
+    break;
+  case 'mostly new':
+    console.log('Back on two feet');
+    break;
+  default:
+    console.log('Invalid moon phase');
+    break;
+}
+
+
+
 
 
 
