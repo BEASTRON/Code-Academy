@@ -191,10 +191,10 @@ case 'full':
 case 'mostly full':
     console.log('Arms and legs are getting hairier');
     break;
-  case 'mostly new':
+case 'mostly new':
     console.log('Back on two feet');
-    break;
-  default:
+    break; 
+default:
     console.log('Invalid moon phase');
     break;
 }
