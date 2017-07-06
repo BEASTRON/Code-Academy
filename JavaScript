@@ -219,6 +219,16 @@ takeOrder('mushrooms, green peppers, and pepperoni');  //**not sure of max. stri
 
 
 
+function takeOrder(topping, crustType) {
+  console.log('Order: ' + crustType + ' crust topped with ' + topping);
+}
+//takeOrder function, called the function 3 times and passed in different arguments each time for topping and crustType.
+takeOrder('bacon', 'thin');
+takeOrder('pepperoni', 'regular');
+takeOrder('pesto', 'thin');
+
+
+
 
 
 
