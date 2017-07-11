@@ -237,6 +237,25 @@ takeOrder('mushroom', 'thick');
 takeOrder('sausage, onions, green peppers', 'regular');
 takeOrder('supreme', 'thick');
 
+// **return keyword
+var orderCount = 0;
+
+function takeOrder(topping, crustType) {
+  console.log('Order: ' + crustType + ' crust topped with ' + topping);
+  orderCount = orderCount + 1;
+}
+
+function getSubTotal(itemCount) {
+  return itemCount * 7.5; //**return will take the result of the math operation and give it back to whatever calls it. In this case it is the number of times takeOrder is executed.  
+}
+
+takeOrder('cheese', 'thin');
+takeOrder('supreme', 'regular');
+takeOrder('pesto', 'thin');
+takeOrder('mushroom and green peppers with onions', 'thin');
+
+console.log(getSubTotal(orderCount));
+
 
 
 
