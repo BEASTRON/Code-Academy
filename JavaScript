@@ -359,6 +359,12 @@ var listItem = bucketList[0];
 console.log(listItem); 
 
 
+var bucketList = ['JavaScript Certification', 'Python Certification', 'C# Certification'];
+//var listItem = bucketList[0];
+//var listItem = bucketList[1];
+console.log(bucketList.length); //We can attach this to any variable holding an array and it will return the number of items inside.
+
+
 
 
 
