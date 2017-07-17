@@ -308,7 +308,7 @@ var myApartment = function() {
   console.log('Mail box: ' + mailBoxNumber + ', Laundry:' + laundryRoom);
 };
 
-myApartment(); // Allows access to variables in myApartment function.
+myApartment(); // Allows access to variables in myApartment function from line 305 to line 309.
 
 
 
