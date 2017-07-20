@@ -365,6 +365,16 @@ var bucketList = ['JavaScript Certification', 'Python Certification', 'C# Certif
 console.log(bucketList.length); //We can attach this to any variable holding an array and it will return the number of items inside.
 
 
+//push()
+
+var bucketList = ['JavaScript Certification', 'Python Certification', 'C# Certification'];
+bucketList.push('Powershell Certification', 'C++ Certification'); //**push() is a function and one that JavaScript allows us to use right on an array. push() adds item(s) to the array. 
+console.log(bucketList);
+
+
+
+
+
 
 
 
