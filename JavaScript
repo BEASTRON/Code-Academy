@@ -371,6 +371,16 @@ var bucketList = ['JavaScript Certification', 'Python Certification', 'C# Certif
 bucketList.push('Powershell Certification', 'C++ Certification'); //**push() is a function and one that JavaScript allows us to use right on an array. push() adds item(s) to the array. 
 console.log(bucketList);
 
+//pop()
+
+var bucketList = ['JavaScript Certification', 'Python Certification', 'C# Certification'];
+//var listItem = bucketList[0];
+//var listItem = bucketList[1];
+//console.log(bucketList.length);
+bucketList.push('Powershell Certification', 'C++ Certification');
+bucketList.pop('C++ Certification') //**pop() deletes the last item of an array.
+console.log(bucketList);
+
 
 
 
