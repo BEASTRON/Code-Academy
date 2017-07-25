@@ -405,7 +405,10 @@ for(var i = 0; i < vacationSpots.length; i++){
 }
 
 
-
+var vacationSpots = ['Japan','Australia','Spain'];
+for(var i = 0; i < vacationSpots.length; i++){
+  console.log('I would love to visit ' + vacationSpots[i]);
+}
 
 
 
