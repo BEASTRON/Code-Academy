@@ -387,6 +387,12 @@ Arrays have a length property, which allows you to see how many items are in an 
 Arrays also have their own methods, including push and pop, which add and subtract items from an array, respectively.*/
 
 
+//loops
+var vacationSpots = ['Japan','Australia','Spain'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
 
 
 
