@@ -421,6 +421,12 @@ It's because the length of vacationSpots is 3 and vacationSpots has items in its
 
 
 
+//modified loop. **Since JavaScript starts from 0, make the start condition the length of the vacationSpots array, minus 1 as shown in line 426.
+var vacationSpots = ['Japan','Australia','Spain'];
+for(var i = vacationSpots.length - 1; i >= 0; i--){
+  console.log('I would love to visit '+ vacationSpots[i]);
+}
+
 
 
 
