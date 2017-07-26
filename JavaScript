@@ -411,7 +411,13 @@ for(var i = 0; i < vacationSpots.length; i++){
 }
 
 
+var vacationSpots = ['Japan','Australia','Spain'];
+for(var i = vacationSpots.length; i >= 0; i--){
+  console.log('I would love to visit '+ vacationSpots[i]);
+} 
+/*we printed 'I would love to visit undefined'. Why did this happen?
 
+It's because the length of vacationSpots is 3 and vacationSpots has items in its array at positions 0, 1, and 2.*/
 
 
 
