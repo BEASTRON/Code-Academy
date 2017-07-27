@@ -442,7 +442,7 @@ for (var i = 0; i < myPlaces.length; i++) {
     
     if (myPlaces[i] === friendPlaces[j]) {
     			console.log('Match: ' + myPlaces[i]);
-				}
+				} //** if/else statement that checks if myPlaces[i] is equal to friendPlaces[j]. Lines 443 - 445. 
     }
 }
 /*Your first place printed, then all three of your friend's. Then your second place, then your friend's places again. And then one more time.
