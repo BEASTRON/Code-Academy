@@ -445,7 +445,14 @@ for (var i = 0; i < myPlaces.length; i++) {
 				}
     }
 }
+/*Your first place printed, then all three of your friend's. Then your second place, then your friend's places again. And then one more time.
 
+This is because the inner for loop runs completely every time the outer for loop runs once. Click 'Run' one more time to proceed.
+
+The purpose of the program is to see what you and your friend have in common. Let's utilize the === comparison with an if/else statement.
+
+Inside the second for loop's block, write an if/else statement that checks if myPlaces[i] is equal to friendPlaces[j]. If it is, log to the console the place you have in common.
+*/
 
 
 
