@@ -455,4 +455,18 @@ Inside the second for loop's block, write an if/else statement that checks if my
 */
 
 
+//**while loop
 
+var cards = ['Diamond', 'Spade', 'Heart', 'Club'];
+
+var currentCard = 'Heart';
+
+while (currentCard !== 'Spade') {
+  console.log(currentCard);
+
+  var randomNumber = Math.floor(Math.random() * 4);
+
+  currentCard = cards[randomNumber]; //randomly picks card, then prints THAT card. 
+}
+
+console.log('Found a Spade!');
