@@ -470,3 +470,13 @@ while (currentCard !== 'Spade') {
 }
 
 console.log('Found a Spade!');
+
+/*while (condition) {
+   code block that loops until condition is false
+   (line 464)
+   The loop begins with the keyword while
+Inside the parentheses, we can insert a condition. As long as the variable evaluates to true the block of code will loop.
+Inside the code block we can write any code we'd like to loop.
+}*/
+
+
