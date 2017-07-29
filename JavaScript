@@ -585,4 +585,4 @@ alert('Hello JavaScript!'); // **When the HTML document loaded, it ran the code 
 //main.js
 var skillset = document.getElementsByClassName('skillset');
 
-alert(skillset); //confirms that JavaScript can select HTML elements. Since we can select HTML elements, we can manipulate them.
+alert(skillset); // lines 586 - 588 confirms that JavaScript can select HTML elements. Since we can select HTML elements, we can manipulate them.
