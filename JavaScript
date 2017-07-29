@@ -524,7 +524,7 @@ Inside the code block we can write any code we'd like to loop.
       </p>
     </div>
   </div>
-<script src='js/main.js'></script> //main.js is stored in a folder. By linking js/main.js in the index.html file, we are asking the browser to run our JavaScript code each time index.html loads.
+<script src='js/main.js'></script> //**main.js is stored in a folder. By linking js/main.js in the index.html file, we are asking the browser to run our JavaScript code each time index.html loads.
 </body>
 
 </html>
