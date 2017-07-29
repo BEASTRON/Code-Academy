@@ -530,6 +530,9 @@ Inside the code block we can write any code we'd like to loop.
 
 </html>
 
+//main.js
+alert('Hello JavaScript!'); // **When the HTML document loaded, it ran the code inside main.js, which created the alert pop-up.
+
 
 //index.html
 <!DOCTYPE html>
