@@ -597,7 +597,7 @@ jQuery is a library written in JavaScript. The syntax and functions it contains 
 
 
 
-//main.js or jQuery from lines 602 - 606 
+// js/main.js or jQuery from lines 602 - 606 
 
 function main() {
   
