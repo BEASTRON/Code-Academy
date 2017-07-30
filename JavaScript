@@ -586,3 +586,70 @@ alert('Hello JavaScript!'); // **When the HTML document loaded, it ran the code 
 var skillset = document.getElementsByClassName('skillset');
 
 alert(skillset); // lines 586 - 588 confirms that JavaScript can select HTML elements. Since we can select HTML elements, we can manipulate them.
+
+
+
+/*jQuery. A library is a set of code that contains useful pre-written functions that help with certain tasks.
+
+A great library for interacting with the DOM is jQuery.
+
+jQuery is a library written in JavaScript. The syntax and functions it contains will help us interact with DOM efficiently. */
+
+
+
+//main.js or jQuery from lines 602 - 606 
+
+function main() {
+  
+}
+
+$(document).ready(main);
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel='stylesheet' type='text/css' href='css/styles.css'>
+</head>
+
+<body>
+
+  <h1>Proficient in:</h1>
+  <div class='skillset'>
+    <div class='skill-html'>
+      <h1>HTML &amp; CSS</h1>
+      <p class='description'>
+        <div class='projects-button'>Recent Projects</div>
+        <ul class='projects'>
+          <li>Broadway</li>
+          <li>MOVE</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class='skill-js'>
+      <h1>JavaScript</h1>
+      <p class='description'>
+        <div class='projects-button'>Recent Projects</div>
+        <ul class='projects'>
+          <li>Password Validator</li>
+          <li>Whale Talk</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class='skill-jquery'>
+      <h1>jQuery</h1>
+      <p class='description'>
+        <div class='projects-button'>Recent Projects</div>
+        <ul class='projects'>
+          <li>Coming soon...</li>
+        </ul>
+      </p>
+    </div>
+  </div>
+<script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> //**link to jQuery.
+<script src='js/main.js'></script>
+</body>
+
+</html>
+
