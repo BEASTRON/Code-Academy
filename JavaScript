@@ -733,3 +733,19 @@ function main() {
 }
 
 $(document).ready(main);
+
+
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(8000);
+  
+  $('.projects').hide(); //if this line is not in the code, the projects appear automatically. 
+  
+  $('.projects-button').on('click', function() {
+		$('.projects').show(); // Lines 746 - 747 allow the projects to appear when the projects button is clicked.
+	});
+}
+
+$(document).ready(main);
