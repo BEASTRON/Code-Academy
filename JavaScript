@@ -718,7 +718,7 @@ $(document).ready(main);
 /*To make a page fade in, it must first be hidden. We can hide elements with jQuery with a function named hide.*/
 //main.js
 function main() {
-  var $skillset = $('.skillset').hide(); //**allows fade in function to work. 
+  var $skillset = $('.skillset').hide(); //**allows fade in function to work. Without this variable, fade in will not occur. 
   alert($skillset);
 }
 
