@@ -728,7 +728,7 @@ $(document).ready(main);
 //main.js
 function main() {
   var $skillset = $('.skillset').hide();
-  var $skillset = $('.skillset').fadeIn(1000); //allows page to fade in. The number in parenthesis is the time fade in occurs in milliseconds.
+  var $skillset = $('.skillset').fadeIn(20000); //allows page to fade in. The number in parenthesis is the time fade in occurs in milliseconds.
   alert($skillset);
 }
 
