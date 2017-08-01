@@ -749,3 +749,19 @@ function main() {
 }
 
 $(document).ready(main);
+
+
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(8000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		$('.projects').toggle(); //allows "on/off" to the click button in order to hide "Recent Projects."
+	});
+}
+
+$(document).ready(main);
