@@ -784,3 +784,21 @@ function main() {
 }
 
 $(document).ready(main);
+
+
+
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(1000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		$('.projects').toggle();
+    $(this).toggleClass('active'); // allows only one the backgrounds of the "Recent Projects" buttons to change when clicked. 
+	});
+}
+
+$(document).ready(main);
