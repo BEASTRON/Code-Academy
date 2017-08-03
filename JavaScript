@@ -841,3 +841,22 @@ function main() {
 $(document).ready(main);
 
 
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(10000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		//$(this).next().toggle(); is commented out in order to allow the slideToggle to function.
+    $(this).next().slideToggle(800); // allows projects to "slide" in & out of the page when the button is clicked.
+    $(this).toggleClass('active');
+    $(this).text('Projects Viewed')
+	});
+}
+
+$(document).ready(main);
+
+
