@@ -802,3 +802,21 @@ function main() {
 }
 
 $(document).ready(main);
+
+
+
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(10000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		$(this).next().toggle(); //ensures that only ONE of the "Recent Projects" button shows the list of projects when clicked, not all of them. 
+    $(this).toggleClass('active');
+	});
+}
+
+$(document).ready(main);
