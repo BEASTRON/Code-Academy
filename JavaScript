@@ -820,3 +820,24 @@ function main() {
 }
 
 $(document).ready(main);
+
+
+
+//main.js
+
+function main() {
+  $('.skillset').hide();
+  $('.skillset').fadeIn(10000);
+  
+  $('.projects').hide();
+  
+  $('.projects-button').on('click', function() {
+		$(this).next().toggle();
+    $(this).toggleClass('active');
+    $(this).text('Projects Viewed')//The text "Recent Projects" within the button is replaced with "Projects Viewed" after being clicked. 
+	});
+}
+
+$(document).ready(main);
+
+
