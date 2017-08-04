@@ -1,1 +1,20 @@
+--SQL
 
+--from https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/relational-databases?action=lesson_resume
+
+/* A relational database is a database that organizes information into one or more tables. Here the relational database contains one table. 
+2. A table is a collection of data organized into rows and columns. Tables are sometimes referred to as relations. Here the table is celebs. 
+3. A column is a set of data values of a particular type. Here id, name, and age are each columns. 
+4. A row is a single record in a table. The first row in the celebs table has:
+
+An id of 1
+A name of Justin Bieber
+An age of 22
+All data stored in a relational database is of a certain data type. Some of the most common data types are:
+
+1. Integer, a positive or negative whole number 
+2. Text, a text string 
+3. Date, the date formatted as YYYY-MM-DD for the year, month, and day 
+4. Real, a decimal value 
+
+*/
