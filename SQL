@@ -2,6 +2,8 @@
 
 --from https://www.codecademy.com/courses/learn-sql/lessons/manipulation/exercises/relational-databases?action=lesson_resume
 
+
+SELECT * FROM celebs;
 /* A relational database is a database that organizes information into one or more tables. Here the relational database contains one table. 
 2. A table is a collection of data organized into rows and columns. Tables are sometimes referred to as relations. Here the table is celebs. 
 3. A column is a set of data values of a particular type. Here id, name, and age are each columns. 
@@ -27,3 +29,8 @@ table_name refers to the name of the table that the command is applied to.
 The structure of SQL statements vary. The number of lines used do not matter. A statement can be written all on one line, or split up across multiple lines if it makes it easier to read. In this course, you will become familiar with the structure of common statements.*/
 
 
+CREATE TABLE celebs(id JEDI BATTLEMASTER ALSO VICE ADMIRAL, --characters only.
+name CARPIO, age "22"); --digits must be in quotes.
+
+
+  
