@@ -38,4 +38,8 @@ CREATE TABLE celebs(id JEDI BATTLEMASTER ALSO VICE ADMIRAL, --characters only.
 name CARPIO, age "22"); --digits must be in quotes.
 
 
+
+INSERT INTO celebs (id, name, age) VALUES (1, 'Justin Bieber', 21); --INSERT INTO example
+
+SELECT * FROM celebs; -- shows the new row.
   
