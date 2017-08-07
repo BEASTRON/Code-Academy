@@ -71,4 +71,13 @@ SELECT name FROM celebs; --prints result(s) of INSERT statement(s)
 
 You can also query data from all columns in a table with SELECT.  
 * is a special wildcard character that we have been using. It allows you to select every column in a table without having to name each one individually. */
-  
+ 
+ 
+ --UPDATE statement(s)
+ 
+UPDATE celebs
+SET age = 22
+WHERE id = 1;
+
+SELECT * FROM celebs; 
+
