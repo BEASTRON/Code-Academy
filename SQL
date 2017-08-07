@@ -73,7 +73,7 @@ You can also query data from all columns in a table with SELECT.
 * is a special wildcard character that we have been using. It allows you to select every column in a table without having to name each one individually. */
  
  
- --UPDATE statement(s)
+ --UPDATE statement(s) allow editing of rows.
  
 UPDATE celebs
 SET age = 22
