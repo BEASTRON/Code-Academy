@@ -111,6 +111,17 @@ SELECT * FROM celebs;
 
 
 
+--DELETE statement(s)
+
+DELETE FROM celebs WHERE
+twitter_handle IS NULL; --deletes all of the rows that have a NULL value in the twitter column.
+
+SELECT * FROM celebs; 
+
+
+
+
+
 
 
 
