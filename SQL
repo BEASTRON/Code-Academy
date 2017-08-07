@@ -42,4 +42,21 @@ name CARPIO, age "22"); --digits must be in quotes.
 INSERT INTO celebs (id, name, age) VALUES (1, 'Justin Bieber', 21); --INSERT INTO example
 
 SELECT * FROM celebs; -- shows the new row.
+
+
+
+--INSERT statements
+
+INSERT INTO celebs (id, name, age)
+VALUES (2, 'Twurking', 33);
+
+INSERT INTO celebs (id, name, age)
+VALUES (3, 'Trippin', 26);
+
+INSERT INTO celebs (id, name, age)
+VALUES (4, 'Gagokapala', 26);
+
+SELECT name FROM celebs; --prints result(s) of INSERT statement(s)
+
+
   
