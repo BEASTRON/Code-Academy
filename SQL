@@ -190,11 +190,14 @@ A% matches all movies with names that begin with "A".
 You can use % both before and after a pattern. Here, any movie that contains the word "man" in its name will be returned in the result set. Notice, that LIKE is not case sensitive. "Batman" and "Man Of Steel" both appear in the result set.*/
 
 SELECT * FROM movies
-WHERE name BETWEEN 'A' AND 'J'; --prints all movies(including genre, year released, and imdb rating) whose titles start with 'A' until 'J.'
+WHERE name BETWEEN 'A' AND 'J'; --prints all movies(including genre, year released, and imdb rating) whose titles start with 'A' until, but excluding 'J.'
 
 
 SELECT * FROM movies
 WHERE year BETWEEN 1990 AND 2000; --prints all movies(including genre, year released, and imdb rating) that were released between 1990 and 2000.
+
+
+/*The BETWEEN operator is used to filter the result set within a certain range. The values can be numbers, text or dates.*/
 
 
 
