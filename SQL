@@ -135,6 +135,16 @@ movies; --prints name and imbd rating for all movies listed.
 SELECT DISTINCT genre FROM movies; --prints genres of movies.
 
 
+/*SELECT DISTINCT is used to return unique values in the result set. It filters out all duplicate values. Here, the result set lists each genre in the movies table exactly once.
+
+1. SELECT DISTINCT specifies that the statement is going to be a query that returns unique values in the specified column(s)
+
+2. genre is the name of the column to display in the result set.
+
+3. FROM movies indicates the table name to query from.*/
+
+
+
 
 
 
