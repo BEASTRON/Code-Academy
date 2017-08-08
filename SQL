@@ -130,9 +130,9 @@ SELECT * FROM celebs;
 --Queries allow us to communicate with the database by asking questions and having the result set return data relevant to the question. 
 
 SELECT name, imdb_rating FROM
-movies; 
+movies; --prints name and imbd rating for all movies listed.
 
-
+SELECT DISTINCT genre FROM movies; --prints genres of movies.
 
 
 
