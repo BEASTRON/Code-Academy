@@ -125,6 +125,15 @@ twitter_handle IS NULL; --deletes all of the rows that have a NULL value in the 
 SELECT * FROM celebs; 
 
 
+--Queries
+
+--Queries allow us to communicate with the database by asking questions and having the result set return data relevant to the question. 
+
+SELECT name, imdb_rating FROM
+movies; 
+
+
+
 
 
 
