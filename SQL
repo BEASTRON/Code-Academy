@@ -232,4 +232,5 @@ It is also possible to sort the results in ascending order. ASC is a keyword in 
 SELECT * FROM movies
 ORDER BY imdb_rating ASC
 LIMIT 3; --prints only 3 movies according to ascending imdb rating. 
+/*LIMIT is a clause that lets you specify the maximum number of rows the result set will have. Here, we specify that the result set can not have more than three rows.*/
  
