@@ -203,5 +203,7 @@ SELECT * FROM movies
 WHERE year BETWEEN 1990 AND 2000
 AND genre = 'comedy'; --prints comedic movies between 1990 and 2000.
 
-
+SELECT * FROM movies
+WHERE genre = 'comedy'
+OR year < 1980; --prints either all comedy movies or movies that were released before 1980.
 
