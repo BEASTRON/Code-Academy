@@ -143,7 +143,7 @@ SELECT DISTINCT genre FROM movies; --prints genres of movies.
 
 3. FROM movies indicates the table name to query from.*/
 
-
+SELECT * FROM movies WHERE imdb_rating > 8; --prints name, genre, year of release and imbd rating for all movies that have an indb rating above 8. 
 
 
 
