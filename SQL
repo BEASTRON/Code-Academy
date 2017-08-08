@@ -199,5 +199,9 @@ WHERE year BETWEEN 1990 AND 2000; --prints all movies(including genre, year rele
 
 /*The BETWEEN operator is used to filter the result set within a certain range. The values can be numbers, text or dates.*/
 
+SELECT * FROM movies
+WHERE year BETWEEN 1990 AND 2000
+AND genre = 'comedy'; --prints comedic movies between 1990 and 2000.
+
 
 
