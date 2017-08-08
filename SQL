@@ -229,5 +229,7 @@ ORDER BY imdb_rating DESC; --prints movies in descending imbd rating.
 
 It is also possible to sort the results in ascending order. ASC is a keyword in SQL that is used with ORDER BY to sort the results in ascending order (low to high or A-Z).*/
 
-
-
+SELECT * FROM movies
+ORDER BY imdb_rating ASC
+LIMIT 3; --prints only 3 movies according to ascending imdb rating. 
+ 
