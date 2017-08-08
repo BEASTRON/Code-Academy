@@ -161,6 +161,9 @@ SELECT * FROM movies WHERE imdb_rating > 8; --prints name, genre, year of releas
 <= less than or equal to*/
 
 
+SELECT * FROM movies
+WHERE name LIKE 'Se_en'; --prints only the movies whose name is 'Se_en.'
+
 
 
 
