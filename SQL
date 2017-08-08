@@ -215,5 +215,5 @@ OR year < 1980; --prints either all comedy movies or movies that were released b
 3. OR is an operator that filters the result set to only include rows where either condition is true. Here, we return movies that either have a genre of comedy or were released before 1980.
 */
 
-
-
+SELECT * FROM movies
+ORDER BY imdb_rating DESC; --prints movies in descending imbd rating.
