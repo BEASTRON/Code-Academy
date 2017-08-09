@@ -240,4 +240,18 @@ WHERE is a popular command that lets you filter the results of the query based o
 LIKE and BETWEEN are special operators that can be used in a WHERE clause
 AND and OR are special operators that you can use with WHERE to filter the query on two or more conditions.
 ORDER BY lets you sort the results of the query in either ascending or descending order.
-LIMIT lets you specify the maximum number of rows that the query will return. This is especially important in large tables that have thousands or even millions of rows.*/
+LIMIT lets you specify the maximum number of rows that the query will return. This is especially important in large tables that have thousands or even millions of rows.*/   
+
+
+--Aggregate Functions
+
+/*Aggregate functions compute a single result from a set of input values. For instance, when we need the sum or average of a particular column, we can use aggregate functions to quickly compute it for us.*/
+
+SELECT * FROM fake_apps; --prints a list
+
+SELECT COUNT(*) FROM fake_apps; --counts the number of items (or apps).
+
+
+
+
+
