@@ -271,6 +271,23 @@ GROUP BY price;
 
 SELECT SUM(downloads) FROM fake_apps;
 
+/*SUM() is a function that takes the name of a column as an argument and returns the sum of all the values in that column. Here, it adds all the values in the downloads column.*/    
+
+SELECT category, SUM(downloads) FROM fake_apps
+GROUP BY category;
+
+SELECT MAX(downloads) FROM fake_apps;
+
+/*You can find the largest value in a column by using MAX().
+
+MAX() is a function that takes the name of a column as an argument and returns the largest value in that column. Here, we pass downloads as an argument so it will return the largest value in the downloads column.*/   
+
+SELECT name, category, MAX(downloads) FROM fake_apps
+GROUP BY category;
+
+SELECT MIN(downloads) FROM fake_apps;
+
+
 
   
 
