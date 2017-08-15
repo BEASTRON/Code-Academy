@@ -92,5 +92,31 @@ public class WhiteSpace {
 	}
 } //line 84 - 93, correctly formatted code.
 
+//comments
+
+/*Single line comments are one line comments that begin with two forward slashes:
+// I'm a single line comment!
+Multi-line comments are generally longer comments that can span multiple lines. They begin with /* and end with */ . Here's an example:
+/*
+
+Hello, 
+Java! 
+
+*/  */  
+
+public class Comments {
+	public static void main(String[] args) {
+
+		//System.out.println("Noise!");
+		
+/*Dude, I seriously looked this up online about 20 minutes ago. & this is so cutting into my SWTOR time !! :( :( */
+
+
+
+		
+	}
+}
+
+
 
   
