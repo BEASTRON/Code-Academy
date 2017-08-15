@@ -129,7 +129,7 @@ int quotient = 45 / 3;  */
 public class Arithmetic {
 	public static void main(String[] args) {
 
-		int myNumber = 6*8;
+		int myNumber = 6*8/(2+2);
 		System.out.println(myNumber);
 
 	}
