@@ -420,6 +420,80 @@ public class IfElse {
 }
 
 
+//If-ElseIf-Else Statement
+
+/*If the Boolean expression after the if statement evaluates to true, it will run the code block that directly follows.
+Otherwise, if the Boolean expression after the else if statement evaluates to true, the code block that directly follow will run.
+Finally, if all previous Boolean expressions evaluate to false, the code within the else block will run.
+Here's an example of control flow with the if/else if/else statement:
+
+int shoeSize = 10;
+
+if (shoeSize > 12) {
+    System.out.println("Sorry, your shoe size is currently not in stock.");
+} else if (shoeSize >= 6) {
+    System.out.println("Your shoe size is in stock!");
+} else {
+    System.out.println("Sorry, this store does not carry shoes smaller than a size 6.");
+}
+In the example above, the int variable shoeSize is equal to 10, which is not greater than 12, but it is greater than or equal to 6. Therefore, the code block after the else if statement will be run.*/
+
+public class IfElseIf {
+	public static void main(String[] args) {
+
+		int round = 6;
+
+		if (round > 12) {
+
+			System.out.println("The match is over!");
+
+		} else if (round > 0) {
+
+			System.out.println("The match is underway!");
+
+		}	else {
+
+			System.out.println("The boxing match hasn't started yet.");
+
+		}	
+	}
+}
+
+
+
+//Ternary Conditional
+
+/*The term ternary comes from a Latin word that means "composed of three parts".
+
+These three parts are:
+
+A Boolean expression
+A single statement that gets executed if the Boolean expression is true
+A single statement that gets executed if the Boolean expression is false
+Here is an example of a ternary conditional statement:
+
+int pointsScored = 21;
+
+char gameResult = (pointsScored > 20) ? 'W' : 'L';
+System.out.println(gameResult);
+In the example above, the int variable called pointsScored is equal to 21.
+
+The Boolean expression is (pointsScored > 20), which evaluates to true. This will return the value of 'W', which is assigned to the variable gameResult. The value 'W' is printed to the console.*/  
+
+public class Ternary {
+	public static void main(String[] args) {
+		
+		int fuelLevel = 3;
+
+		char canDrive = (fuelLevel > 0) ? 'Y' : 'N';
+		System.out.println(canDrive);
+
+	}
+}
+
+
+
+
 
 
 
