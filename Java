@@ -984,7 +984,37 @@ In the example above, we create a drive method that accepts an int parameter cal
 
 Calling the drive method on myFastCar will result in printing Miles driven: 1628 to the console.*/
 
+class Dog {
+  
+  int age;
 
+	public Dog(int dogsAge) {
+    
+  	age = dogsAge;
+    
+  }
+  
+  public void bark() {
+		
+    System.out.println("Woof!");
+    
+	}
+	
+  public void run(int feet) {
+    
+    System.out.println("Your dog ran " + feet + " feet!");
+
+	}
+  
+	public static void main(String[] args) {
+    
+    Dog spike = new Dog(5);
+    spike.bark();
+    spike.run(40);
+
+	}
+
+}
 
 
 
