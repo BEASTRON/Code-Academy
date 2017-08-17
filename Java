@@ -606,6 +606,104 @@ public class GeneralizationsB {
 	}
 }
 
+//Object Oriented Overview
+
+public class Mouse extends Rodentia {
+
+	String name;
+
+	public Mouse(String name) {
+
+		this.name = name;
+
+	}
+
+	public void eat() {
+
+		System.out.println(name + " ate some cheese pizza!");
+
+	}
+
+	public void solveMaze(int minutes) {
+
+		System.out.println(name + " solved the maze in " + minutes + " minutes!");
+
+	}
+
+	public static void main(String[] args) {
+
+		Mouse ratly = new Mouse("Ratly");
+		ratly.eat();
+		ratly.solveMaze(3);
+		ratly.order();
+
+	}
+
+}
+
+
+
+//Classes: Syntax
+
+/*A class is a set of instructions that describe how a data structure should behave.
+
+Java provides us with its own set of pre-defined classes, but we are also free to create our own custom classes.
+
+Classes in Java are created as follows:
+
+//Create a custom Car class
+
+class Car {
+
+}
+The example above creates a class named Car. We will define the behavior of the Car data structure in the next exercise.*/
+
+class Dog {
+
+
+
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+//Classes: Constructors
+
+/*A class constructor will allow us to create Dog instances. With a class constructor, we can set some information about the Dog.
+If we do not create a class constructor, Java provides one that does not allow you to set initial information.
+The code below demonstrates how a class constructor is created:
+
+class Car {
+
+    //The class constructor for the Car class
+    public Car() {
+
+    }
+}
+In the example above, we created a class constructor for the Car class. This constructor will be used when we create Car instances later. The public keyword will be explained later in this course.*/
+
+class Dog {
+
+	//The class constructor for the Dog class
+  public Dog(){
+    
+  }
+
+
+	public static void main(String[] args) {
+
+	}
+
+}
+
+
+
+
+
+
+
 
 
 
