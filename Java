@@ -769,7 +769,33 @@ class Dog {
 
 }
 
+//The main Method
 
+/*public static void main(String[] args) {
+
+}
+This is Java's built-in main method. We will learn more about methods and keywords around the main method later on, but first let's understand what the purpose of main is.
+
+When Java runs your program, the code inside of the main method is executed.
+For now, you can ignore the keywords in the main method that we have not yet covered. You will learn about them later in the course.*/
+
+
+class Dog {
+  
+  int age;
+
+	public Dog(int dogsAge) {
+    
+  	age = dogsAge;
+    
+  }
+
+
+	public static void main(String[] args) {//**
+
+	}  
+
+}
 
 
 
