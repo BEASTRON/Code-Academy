@@ -1583,7 +1583,19 @@ public class Restaurant {
 }
 
 
+//HashMap Access
 
+/*In order to access a value in a HashMap, we specify the key:
+
+HashMap<String, Integer> myFriends = new HashMap<String, Integer>();
+
+myFriends.put("Mark", 24);
+myFriends.put("Cassandra", 25);
+myFriends.put("Zenas", 21);
+
+System.out.println( myFriends.get("Zenas") );
+In the example above, we call the get method on the myFriends HashMap using the key "Zenas". The console will print the value associated with "Zenas" which is 21.*/
+  
 
 
 
