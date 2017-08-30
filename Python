@@ -81,6 +81,12 @@ eggs = False
 
 
 
+#Python Comments 
+
+#single line comments.
+
+"multi-line comments."
+
 
 
 
