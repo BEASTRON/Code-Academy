@@ -74,6 +74,14 @@ def spam():
 print spam()
 
 
+#Python Syntax
+
+spam = True
+eggs = False
+
+
+
+
 
 
 
