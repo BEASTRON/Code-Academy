@@ -50,6 +50,31 @@ print my_int
 
 
 
+#Whitespace
+
+"In Python, whitespace is used to structure code. Whitespace is important, so you have to be careful with how you use it."  
+
+def spam():
+eggs = 12
+return eggs
+        
+print spam()
+
+"IndentationError: expected an indented block
+You'll get this error whenever your whitespace is off.
+
+On Codecademy, we will use two-space indentation (two blank spaces for each indentation) to make sure you can easily read code with multiple indentations in your browser. Beyond Codecademy, you will also see Python code that uses four-space indentation. Both are correct, as long as you make sure to be consistent throughout your code."
+
+#Proper indentation
+
+def spam():
+  eggs = 12
+  return eggs
+        
+print spam()
+
+
+
 
 
 
