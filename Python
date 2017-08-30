@@ -87,6 +87,10 @@ eggs = False
 
 "multi-line comments."
 
+#This variable is not THAT mysterious !!
+
+mysterious_variable = 42
+
 
 
 
